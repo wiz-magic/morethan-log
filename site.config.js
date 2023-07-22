@@ -34,7 +34,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "🍏위즈의 Blog ",
+    title: "🍏 위즈의 Blog ",
     description: "문제 해결사의 기록",
     theme: "auto", // ['light', 'dark', 'auto']
   },
