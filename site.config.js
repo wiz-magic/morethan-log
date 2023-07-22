@@ -12,6 +12,10 @@ const CONFIG = {
   },
   projects: [
     {
+      name: `궁금한 재테크`,
+      href: "https://brunch.co.kr/@carpediem7760",
+    },
+    {
       name: `집패스`,
       href: "https://wizblog.vercel.app/",
     },
@@ -30,18 +34,18 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "창업가 위즈의 기록",
+    title: "🍏위즈의 Blog ",
     description: "문제 해결사의 기록",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
   link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  since: 2023, // If leave this empty, current year will be used.
+  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ["Blog", "Website", "Notion"],
+    keywords: ["포트폴리오", "마케터", "창업가"],
   },
 
   // notion configuration (required)
