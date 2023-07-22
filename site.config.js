@@ -1,25 +1,37 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: "Wiz",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    role: "Problem Solver",
+    bio: "세상의 문제를 해결합니다.",
+    email: "capediem7760@gmail.com",
+    linkedin: "wiz",
+    github: "lee-insu",
     instagram: "",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `집패스`,
+      href: "https://wizblog.vercel.app/",
+    },
+     {
+      name: `오코`,
+      href: "https://wizblog.vercel.app/",
+    },
+    {
+      name: `코인앵무새`,
+      href: "https://wizblog.vercel.app/",
+    },
+    {
+      name: `헤이서`,
+      href: "https://wizblog.vercel.app/",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "Wiz-log",
+    description: "문제 해결사의 기록",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
