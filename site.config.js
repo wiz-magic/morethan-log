@@ -30,7 +30,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "Wiz-log",
+    title: "창업가 위즈의 기록",
     description: "문제 해결사의 기록",
     theme: "auto", // ['light', 'dark', 'auto']
   },
