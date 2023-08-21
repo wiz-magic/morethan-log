@@ -17,19 +17,23 @@ const CONFIG = {
     },
     {
       name: `집패스`,
-      href: "https://wizblog.vercel.app/",
+      href: "https://zip-pass-web-5rz6ee.vercel.app/",
     },
      {
       name: `오코`,
-      href: "https://wizblog.vercel.app/",
+      href: "https://ohco-beta.vercel.app/",
     },
     {
       name: `코인앵무새`,
-      href: "https://wizblog.vercel.app/",
+      href: "https://goofy-jepsen-710f83.netlify.app/",
+    },
+    {
+      name: `헤이앱`,
+      href: "https://vibrant-fermi-3eff9e.netlify.app/",
     },
     {
       name: `헤이서`,
-      href: "https://wizblog.vercel.app/",
+      href: "http://pf.kakao.com/_drxfxlxb",
     },
   ],
   // blog setting (required)
