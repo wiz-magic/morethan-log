@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Wiz",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/me.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Problem Solver",
     bio: "세상의 문제를 해결합니다.",
     email: "capediem7760@gmail.com",
@@ -12,6 +12,14 @@ const CONFIG = {
   },
   projects: [
     {
+      name: `HR퍼즐`,
+      href: "https://hrpuzzle.oopy.io/",
+    },
+    {
+      name: `걸어서 서울속으로`,
+      href: "https://grateful-wood-6af.notion.site/793d76ad46d04a0ab7babd988fc6db82",
+    },
+    {
       name: `궁금한 재테크`,
       href: "https://brunch.co.kr/@carpediem7760",
     },
@@ -19,20 +27,20 @@ const CONFIG = {
       name: `집패스`,
       href: "https://zip-pass-web-5rz6ee.vercel.app/",
     },
-     {
+    {
       name: `오코`,
       href: "https://ohco-beta.vercel.app/",
     },
     {
-      name: `코인앵무새`,
+      name: `코인앵무새`,
       href: "https://goofy-jepsen-710f83.netlify.app/",
     },
     {
-      name: `헤이앱`,
+      name: `헤이앱`,
       href: "https://vibrant-fermi-3eff9e.netlify.app/",
     },
     {
-      name: `헤이서`,
+      name: `헤이서`,
       href: "http://pf.kakao.com/_drxfxlxb",
     },
   ],
@@ -49,7 +57,7 @@ const CONFIG = {
   lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ["포트폴리오", "마케터", "창업가"],
+    keywords: ["포트폴리오", "마케터", "창업가"],
   },
 
   // notion configuration (required)
