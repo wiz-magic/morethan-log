@@ -13,7 +13,7 @@ const CONFIG = {
   projects: [
     {
       name: `HR퍼즐`,
-      href: "https://hrpuzzle.oopy.io/",
+      href: "https://grateful-wood-6af.notion.site/HR-243367b22c7b4c5ead8479e4573e3c77?pvs=74",
     },
     {
       name: `걸어서 서울속으로`,
@@ -29,7 +29,7 @@ const CONFIG = {
     },
     {
       name: `오코`,
-      href: "https://ohco-beta.vercel.app/",
+      href: "https://wizblog.vercel.app/ohco-product",
     },
     {
       name: `코인앵무새`,
