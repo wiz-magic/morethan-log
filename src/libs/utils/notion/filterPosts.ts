@@ -25,7 +25,20 @@ export function filterPosts(posts: TPosts, options: Options = initialOption) {
     })
     // filter status
     .filter((post) => {
-      const postStatus = post.status[0]
+      // const postStatus = post.status[0]
+      // return acceptStatus.includes(postStatus)
+      // 배열이고, 길이가 1 이상인지 확인
+      const postStatus =
+        Array.isArray(post.status) && post.status.length > 0
+          ? post.status[0]
+          : undefined
+
+      // `undefined` 상태를 처리하거나 기본값을 제공
+      if (!postStatus) {
+        // 여기에 `undefined` 상태일 때의 로직 처리
+        return false // 또는 적절한 기본값 처리
+      }
+
       return acceptStatus.includes(postStatus)
     })
     // filter type
