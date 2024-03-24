@@ -25,7 +25,7 @@ const CONFIG = {
     },
     {
       name: `집패스`,
-      href: "https://zip-pass-web-5rz6ee.vercel.app/",
+      href: "http://pf.kakao.com/_yxdidxj",
     },
     {
       name: `오코`,
