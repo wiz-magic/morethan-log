@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `HR퍼즐`,
-      href: "https://grateful-wood-6af.notion.site/HR-243367b22c7b4c5ead8479e4573e3c77?pvs=74",
+      name: `캐시플로우`,
+      href: "https://www.notion.so/1a763c2fc6d080069380c29ac913b339",
     },
     {
       name: `걸어서 서울속으로`,
